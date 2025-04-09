@@ -127,7 +127,7 @@
                     :attributes="\Filament\Support\prepare_inherited_attributes($group->getExtraSidebarAttributeBag())"
                 />
             @endforeach
-        </ul>
+        </ul> 
 
         <script>
             var collapsedGroups = JSON.parse(

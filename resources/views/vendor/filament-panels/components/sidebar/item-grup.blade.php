@@ -20,13 +20,9 @@
     $sidebarCollapsible = $sidebarCollapsible && filament()->isSidebarCollapsibleOnDesktop();
 @endphp
 
-
 <li class="nav-item">
     <a {{ \Filament\Support\generate_href_html($url, $shouldOpenUrlInNewTab) }} class="nav-link">
-        <i class="nav-icon fas fa-th"></i>
-        <p>
-            Widgets
-            <span class="right badge badge-danger">New</span>
-        </p>
+        <i class="far fa-circle nav-icon"></i>
+        <p>{{ $slot }}</p>
     </a>
 </li>

@@ -28,6 +28,7 @@ class AppPanelProvider extends PanelProvider
             ->path('')
             ->login()
             ->spa()
+            ->brandLogo(asset('style/dist/img/AdminLTELogo.png'))
             ->colors([
                 'primary' => '#3B82F6',
             ])
