@@ -31,8 +31,8 @@ the group or its items can have icons, but not both. This is to ensure a proper 
 }
 @endphp
 
-<li class="nav-item menu-open">
-    <a href="#" class="nav-link active">
+<li @class(['nav-item','menu-open'=> $active])>
+    <a href="#" @class(['nav-link','active'=> $active]) >
         <i class="nav-icon fas fa-tachometer-alt"></i>
         <p>
             {{ $label }}

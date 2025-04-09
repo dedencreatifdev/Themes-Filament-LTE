@@ -22,7 +22,8 @@
 
 
 <li class="nav-item">
-    <a {{ \Filament\Support\generate_href_html($url, $shouldOpenUrlInNewTab) }} class="nav-link">
+    <a {{ \Filament\Support\generate_href_html($url, $shouldOpenUrlInNewTab) }} @class([ 'nav-link' , 'active'=> $active
+        ])>
         <i class="nav-icon fas fa-th"></i>
         <p>
             Widgets
